@@ -1,0 +1,7 @@
+Note from Noel:
+This script works:
+python convert.py --caffemodel ./lenet_iter_10000.caffemodel ./lenet.prototxt --data-output-path ./output.mat --code-output-path ./output.py --standalone-output-path ./standalone.pb
+
+but when test on FR, error out :
+Error encountered: Unknown layer type encountered: PReLU
+python convert.py --caffemodel ./fr.caffemodel ./fr.prototxt --data-output-path ./output.mat --code-output-path ./output.py --standalone-output-path ./standalone.pb
